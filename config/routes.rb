@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   # root "articles#index"
 
   #comment
+  get "examples" => "examples#index"
 end
